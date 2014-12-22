@@ -1,0 +1,10 @@
+#swira-header {
+    background: #fff url('../images/top1.jpg') top center no-repeat;
+    height: 426px;
+
+    .nav-menu {
+        @extend .nav;
+        @extend .navbar-nav;
+    }
+
+}

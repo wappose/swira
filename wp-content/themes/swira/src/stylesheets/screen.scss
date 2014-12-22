@@ -1,0 +1,21 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//
+// Ändra i lib/bootstrap/_variables.scss för att ändra fonter m m
+
+@import "compass/css3";
+//@import "compass/reset";
+
+@import "_bootstrap";
+@import "_grid";
+
+@import "sections/_fonts";
+@import "sections/_main";
+@import "sections/_header";
+@import "sections/_footer";
+
+
+

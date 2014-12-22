@@ -1,0 +1,33 @@
+
+
+/* Rubrik 1: Eurostile Lt Std Ex 2, 18 pt (versal) */
+h1 {
+    font-family:"EurostileLTW01-Ex2";
+    font-size: 18pt;
+}
+
+/* Rubrik 2: Humanst521 BT Roman, 18 pt */
+h2 {
+    font-family:"humanst521_btroman";
+    font-size: 18pt;
+}
+
+/* Rubrik 3: Humanst521 BT Roman, 15 pt (rgb 33, 70, 86) */
+h3 {
+    font-family:"humanst521_btroman";
+        font-size: 15pt;
+    color: rgb(33, 70, 86);
+}
+
+/* Ingress: Humanst521 BT Light, 18 pt */
+
+
+/* Brödtext: Humanst521 BT Light, 13 pt (15 pt i sidfot) */
+p {
+    font-family:"humanst521_lt_btlight";
+    font-size: 13pt;
+    .preamble {
+        font-size: 18pt;
+    }
+}
+

@@ -1,0 +1,35 @@
+@mixin makeColumns($md_columns, $lg_columns, $sm_columns, $md_offset: 0, $lg_offset: 0, $sm_offset: 0) {
+    /*@include make-sm-column($sm_columns);
+    @include make-lg-column($lg_columns);
+    @include make-md-column($md_columns);
+    
+    @if $md_offset > 0 {
+        @include make-sm-offset($md_offset);
+    }
+
+    @if $lg_offset > 0 {
+        @include make-lg-offset($lg_offset);
+    }
+
+    @if $sm_offset > 0 {
+        @include make-md-offset($sm_offset);
+    }*/
+}
+
+@mixin largeDesktop() {
+    @media (min-width: $screen-lg-min) {
+        @content
+    }
+}
+
+@mixin tablet() {
+    @media (min-width: $screen-sm-min) {
+        @content
+    }
+}
+
+@mixin mobile() {
+    @media (max-width: $screen-xs-max) {
+        @content
+    }
+}

@@ -1,5 +1,4 @@
 jQuery(document).ready(function() {
-    alert('test');;
     var MTUserId='598cf127-b95d-4906-baa3-bd39d751257d';
     var MTFontIds = new Array();
 

@@ -2,8 +2,8 @@
 
 
 
-<div id="primary" class="content-area container">
-    <div id="content" class="site-content row" role="main">
+<div id="primary" class="content-area">
+    <div id="content" class="site-content" role="main">
 
 
 <?php if ( have_posts() ) : ?>
@@ -36,8 +36,5 @@
 
     </div><!-- #content -->
 </div><!-- #primary -->
-
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

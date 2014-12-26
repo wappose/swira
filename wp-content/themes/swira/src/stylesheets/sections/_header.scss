@@ -1,10 +1,76 @@
 #swira-header {
-    background: #fff url('../images/top1.jpg') top center no-repeat;
-    height: 426px;
+    background: transparent url('../images/top1.jpg') top center no-repeat;
 
-    .nav-menu {
-        @extend .nav;
-        @extend .navbar-nav;
+
+    @include tabletsAndUp() {
+        height: 426px;
     }
 
+    .swira-topbar {
+        background-color: #9cdbd9;
+        opacity: 0.6;
+        max-width: 1598px;
+        margin: 0 auto;
+
+        .nav-menu {
+            @extend .nav;
+            @extend .navbar-nav;
+            height: 50px;
+        }
+
+        .navbar-toggle {
+            border-color: white;
+            .icon-bar {
+                background-color: white;
+            }
+        }
+
+        ul li.menu-item {
+            @include menu-item;
+
+            a {
+                color: black;
+
+
+            }
+            &:hover,
+            &.current_page_item {
+                background-color: #EEE;
+
+            }
+            &.menu-item-home {
+                background-color: transparent;
+            }
+        }
+
+    }
+
+    #swira-logo-and-tagline {
+        .row > div p {
+            margin: 20px 0 10pc 0;
+        }
+        .row > div img {
+            margin-top: 20px;
+        }
+        @include desktopsAndUp() {
+            .row {
+                height: 325px;
+                display: table;
+            }
+            .row > div {
+                float: none;
+                display: table-cell;
+                vertical-align: bottom;
+                padding-right: 40px;
+            }
+            .row > div p {
+                margin: 0;
+            }
+            .row > div img {
+                margin-top: 0;
+            }
+        }
+    }
 }
+
+

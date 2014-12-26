@@ -4905,61 +4905,61 @@ tbody.collapse.in {
 }
 
 /* line 9, ../../src/stylesheets/bootstrap/_navs.scss */
-.nav, #swira-header .nav-menu {
+.nav, #swira-header .swira-topbar .nav-menu {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
 }
 /* line 15, ../../src/stylesheets/bootstrap/mixins/_clearfix.scss */
-.nav:before, #swira-header .nav-menu:before, .nav:after, #swira-header .nav-menu:after {
+.nav:before, #swira-header .swira-topbar .nav-menu:before, .nav:after, #swira-header .swira-topbar .nav-menu:after {
   content: " ";
   display: table;
 }
 /* line 19, ../../src/stylesheets/bootstrap/mixins/_clearfix.scss */
-.nav:after, #swira-header .nav-menu:after {
+.nav:after, #swira-header .swira-topbar .nav-menu:after {
   clear: both;
 }
 /* line 15, ../../src/stylesheets/bootstrap/_navs.scss */
-.nav > li, #swira-header .nav-menu > li {
+.nav > li, #swira-header .swira-topbar .nav-menu > li {
   position: relative;
   display: block;
 }
 /* line 19, ../../src/stylesheets/bootstrap/_navs.scss */
-.nav > li > a, #swira-header .nav-menu > li > a {
+.nav > li > a, #swira-header .swira-topbar .nav-menu > li > a {
   position: relative;
   display: block;
   padding: 10px 15px;
 }
 /* line 24, ../../src/stylesheets/bootstrap/_navs.scss */
-.nav > li > a:hover, #swira-header .nav-menu > li > a:hover, .nav > li > a:focus, #swira-header .nav-menu > li > a:focus {
+.nav > li > a:hover, #swira-header .swira-topbar .nav-menu > li > a:hover, .nav > li > a:focus, #swira-header .swira-topbar .nav-menu > li > a:focus {
   text-decoration: none;
   background-color: #eeeeee;
 }
 /* line 31, ../../src/stylesheets/bootstrap/_navs.scss */
-.nav > li.disabled > a, #swira-header .nav-menu > li.disabled > a {
+.nav > li.disabled > a, #swira-header .swira-topbar .nav-menu > li.disabled > a {
   color: #777777;
 }
 /* line 35, ../../src/stylesheets/bootstrap/_navs.scss */
-.nav > li.disabled > a:hover, #swira-header .nav-menu > li.disabled > a:hover, .nav > li.disabled > a:focus, #swira-header .nav-menu > li.disabled > a:focus {
+.nav > li.disabled > a:hover, #swira-header .swira-topbar .nav-menu > li.disabled > a:hover, .nav > li.disabled > a:focus, #swira-header .swira-topbar .nav-menu > li.disabled > a:focus {
   color: #777777;
   text-decoration: none;
   background-color: transparent;
   cursor: not-allowed;
 }
 /* line 48, ../../src/stylesheets/bootstrap/_navs.scss */
-.nav .open > a, #swira-header .nav-menu .open > a, .nav .open > a:hover, #swira-header .nav-menu .open > a:hover, .nav .open > a:focus, #swira-header .nav-menu .open > a:focus {
+.nav .open > a, #swira-header .swira-topbar .nav-menu .open > a, .nav .open > a:hover, #swira-header .swira-topbar .nav-menu .open > a:hover, .nav .open > a:focus, #swira-header .swira-topbar .nav-menu .open > a:focus {
   background-color: #eeeeee;
   border-color: #337ab7;
 }
 /* line 59, ../../src/stylesheets/bootstrap/_navs.scss */
-.nav .nav-divider, #swira-header .nav-menu .nav-divider {
+.nav .nav-divider, #swira-header .swira-topbar .nav-menu .nav-divider {
   height: 1px;
   margin: 9px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
 /* line 66, ../../src/stylesheets/bootstrap/_navs.scss */
-.nav > li > a > img, #swira-header .nav-menu > li > a > img {
+.nav > li > a > img, #swira-header .swira-topbar .nav-menu > li > a > img {
   max-width: none;
 }
 
@@ -5320,18 +5320,18 @@ tbody.collapse.in {
 }
 
 /* line 233, ../../src/stylesheets/bootstrap/_navbar.scss */
-.navbar-nav, #swira-header .nav-menu {
+.navbar-nav, #swira-header .swira-topbar .nav-menu {
   margin: 7.5px -15px;
 }
 /* line 236, ../../src/stylesheets/bootstrap/_navbar.scss */
-.navbar-nav > li > a, #swira-header .nav-menu > li > a {
+.navbar-nav > li > a, #swira-header .swira-topbar .nav-menu > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
 }
 @media (max-width: 767px) {
   /* line 244, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-nav .open .dropdown-menu, #swira-header .nav-menu .open .dropdown-menu {
+  .navbar-nav .open .dropdown-menu, #swira-header .swira-topbar .nav-menu .open .dropdown-menu {
     position: static;
     float: none;
     width: auto;
@@ -5341,32 +5341,32 @@ tbody.collapse.in {
     box-shadow: none;
   }
   /* line 253, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-nav .open .dropdown-menu > li > a, #swira-header .nav-menu .open .dropdown-menu > li > a,
+  .navbar-nav .open .dropdown-menu > li > a, #swira-header .swira-topbar .nav-menu .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header,
-  #swira-header .nav-menu .open .dropdown-menu .dropdown-header {
+  #swira-header .swira-topbar .nav-menu .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 25px;
   }
   /* line 256, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-nav .open .dropdown-menu > li > a, #swira-header .nav-menu .open .dropdown-menu > li > a {
+  .navbar-nav .open .dropdown-menu > li > a, #swira-header .swira-topbar .nav-menu .open .dropdown-menu > li > a {
     line-height: 20px;
   }
   /* line 259, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-nav .open .dropdown-menu > li > a:hover, #swira-header .nav-menu .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus, #swira-header .nav-menu .open .dropdown-menu > li > a:focus {
+  .navbar-nav .open .dropdown-menu > li > a:hover, #swira-header .swira-topbar .nav-menu .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus, #swira-header .swira-topbar .nav-menu .open .dropdown-menu > li > a:focus {
     background-image: none;
   }
 }
 @media (min-width: 768px) {
   /* line 233, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-nav, #swira-header .nav-menu {
+  .navbar-nav, #swira-header .swira-topbar .nav-menu {
     float: left;
     margin: 0;
   }
   /* line 271, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-nav > li, #swira-header .nav-menu > li {
+  .navbar-nav > li, #swira-header .swira-topbar .nav-menu > li {
     float: left;
   }
   /* line 273, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-nav > li > a, #swira-header .nav-menu > li > a {
+  .navbar-nav > li > a, #swira-header .swira-topbar .nav-menu > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -5470,14 +5470,14 @@ tbody.collapse.in {
 }
 
 /* line 328, ../../src/stylesheets/bootstrap/_navbar.scss */
-.navbar-nav > li > .dropdown-menu, #swira-header .nav-menu > li > .dropdown-menu {
+.navbar-nav > li > .dropdown-menu, #swira-header .swira-topbar .nav-menu > li > .dropdown-menu {
   margin-top: 0;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
 
 /* line 333, ../../src/stylesheets/bootstrap/_navbar.scss */
-.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu, .navbar-fixed-bottom #swira-header .nav-menu > li > .dropdown-menu, #swira-header .navbar-fixed-bottom .nav-menu > li > .dropdown-menu {
+.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu, .navbar-fixed-bottom #swira-header .swira-topbar .nav-menu > li > .dropdown-menu, #swira-header .swira-topbar .navbar-fixed-bottom .nav-menu > li > .dropdown-menu {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
   border-bottom-right-radius: 0;
@@ -5549,21 +5549,21 @@ tbody.collapse.in {
   color: #777777;
 }
 /* line 415, ../../src/stylesheets/bootstrap/_navbar.scss */
-.navbar-default .navbar-nav > li > a, .navbar-default #swira-header .nav-menu > li > a, #swira-header .navbar-default .nav-menu > li > a {
+.navbar-default .navbar-nav > li > a, .navbar-default #swira-header .swira-topbar .nav-menu > li > a, #swira-header .swira-topbar .navbar-default .nav-menu > li > a {
   color: #777777;
 }
 /* line 419, ../../src/stylesheets/bootstrap/_navbar.scss */
-.navbar-default .navbar-nav > li > a:hover, .navbar-default #swira-header .nav-menu > li > a:hover, #swira-header .navbar-default .nav-menu > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default #swira-header .nav-menu > li > a:focus, #swira-header .navbar-default .nav-menu > li > a:focus {
+.navbar-default .navbar-nav > li > a:hover, .navbar-default #swira-header .swira-topbar .nav-menu > li > a:hover, #swira-header .swira-topbar .navbar-default .nav-menu > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default #swira-header .swira-topbar .nav-menu > li > a:focus, #swira-header .swira-topbar .navbar-default .nav-menu > li > a:focus {
   color: #333333;
   background-color: transparent;
 }
 /* line 427, ../../src/stylesheets/bootstrap/_navbar.scss */
-.navbar-default .navbar-nav > .active > a, .navbar-default #swira-header .nav-menu > .active > a, #swira-header .navbar-default .nav-menu > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default #swira-header .nav-menu > .active > a:hover, #swira-header .navbar-default .nav-menu > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default #swira-header .nav-menu > .active > a:focus, #swira-header .navbar-default .nav-menu > .active > a:focus {
+.navbar-default .navbar-nav > .active > a, .navbar-default #swira-header .swira-topbar .nav-menu > .active > a, #swira-header .swira-topbar .navbar-default .nav-menu > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default #swira-header .swira-topbar .nav-menu > .active > a:hover, #swira-header .swira-topbar .navbar-default .nav-menu > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, .navbar-default #swira-header .swira-topbar .nav-menu > .active > a:focus, #swira-header .swira-topbar .navbar-default .nav-menu > .active > a:focus {
   color: #555555;
   background-color: #e7e7e7;
 }
 /* line 435, ../../src/stylesheets/bootstrap/_navbar.scss */
-.navbar-default .navbar-nav > .disabled > a, .navbar-default #swira-header .nav-menu > .disabled > a, #swira-header .navbar-default .nav-menu > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default #swira-header .nav-menu > .disabled > a:hover, #swira-header .navbar-default .nav-menu > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus, .navbar-default #swira-header .nav-menu > .disabled > a:focus, #swira-header .navbar-default .nav-menu > .disabled > a:focus {
+.navbar-default .navbar-nav > .disabled > a, .navbar-default #swira-header .swira-topbar .nav-menu > .disabled > a, #swira-header .swira-topbar .navbar-default .nav-menu > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default #swira-header .swira-topbar .nav-menu > .disabled > a:hover, #swira-header .swira-topbar .navbar-default .nav-menu > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus, .navbar-default #swira-header .swira-topbar .nav-menu > .disabled > a:focus, #swira-header .swira-topbar .navbar-default .nav-menu > .disabled > a:focus {
   color: #cccccc;
   background-color: transparent;
 }
@@ -5585,27 +5585,27 @@ tbody.collapse.in {
   border-color: #e7e7e7;
 }
 /* line 464, ../../src/stylesheets/bootstrap/_navbar.scss */
-.navbar-default .navbar-nav > .open > a, .navbar-default #swira-header .nav-menu > .open > a, #swira-header .navbar-default .nav-menu > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default #swira-header .nav-menu > .open > a:hover, #swira-header .navbar-default .nav-menu > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default #swira-header .nav-menu > .open > a:focus, #swira-header .navbar-default .nav-menu > .open > a:focus {
+.navbar-default .navbar-nav > .open > a, .navbar-default #swira-header .swira-topbar .nav-menu > .open > a, #swira-header .swira-topbar .navbar-default .nav-menu > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default #swira-header .swira-topbar .nav-menu > .open > a:hover, #swira-header .swira-topbar .navbar-default .nav-menu > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default #swira-header .swira-topbar .nav-menu > .open > a:focus, #swira-header .swira-topbar .navbar-default .nav-menu > .open > a:focus {
   background-color: #e7e7e7;
   color: #555555;
 }
 @media (max-width: 767px) {
   /* line 473, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a, .navbar-default #swira-header .nav-menu .open .dropdown-menu > li > a, #swira-header .navbar-default .nav-menu .open .dropdown-menu > li > a {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a, .navbar-default #swira-header .swira-topbar .nav-menu .open .dropdown-menu > li > a, #swira-header .swira-topbar .navbar-default .nav-menu .open .dropdown-menu > li > a {
     color: #777777;
   }
   /* line 476, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default #swira-header .nav-menu .open .dropdown-menu > li > a:hover, #swira-header .navbar-default .nav-menu .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default #swira-header .nav-menu .open .dropdown-menu > li > a:focus, #swira-header .navbar-default .nav-menu .open .dropdown-menu > li > a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default #swira-header .swira-topbar .nav-menu .open .dropdown-menu > li > a:hover, #swira-header .swira-topbar .navbar-default .nav-menu .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default #swira-header .swira-topbar .nav-menu .open .dropdown-menu > li > a:focus, #swira-header .swira-topbar .navbar-default .nav-menu .open .dropdown-menu > li > a:focus {
     color: #333333;
     background-color: transparent;
   }
   /* line 484, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default #swira-header .nav-menu .open .dropdown-menu > .active > a, #swira-header .navbar-default .nav-menu .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default #swira-header .nav-menu .open .dropdown-menu > .active > a:hover, #swira-header .navbar-default .nav-menu .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus, .navbar-default #swira-header .nav-menu .open .dropdown-menu > .active > a:focus, #swira-header .navbar-default .nav-menu .open .dropdown-menu > .active > a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default #swira-header .swira-topbar .nav-menu .open .dropdown-menu > .active > a, #swira-header .swira-topbar .navbar-default .nav-menu .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default #swira-header .swira-topbar .nav-menu .open .dropdown-menu > .active > a:hover, #swira-header .swira-topbar .navbar-default .nav-menu .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus, .navbar-default #swira-header .swira-topbar .nav-menu .open .dropdown-menu > .active > a:focus, #swira-header .swira-topbar .navbar-default .nav-menu .open .dropdown-menu > .active > a:focus {
     color: #555555;
     background-color: #e7e7e7;
   }
   /* line 492, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default #swira-header .nav-menu .open .dropdown-menu > .disabled > a, #swira-header .navbar-default .nav-menu .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default #swira-header .nav-menu .open .dropdown-menu > .disabled > a:hover, #swira-header .navbar-default .nav-menu .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus, .navbar-default #swira-header .nav-menu .open .dropdown-menu > .disabled > a:focus, #swira-header .navbar-default .nav-menu .open .dropdown-menu > .disabled > a:focus {
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default #swira-header .swira-topbar .nav-menu .open .dropdown-menu > .disabled > a, #swira-header .swira-topbar .navbar-default .nav-menu .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default #swira-header .swira-topbar .nav-menu .open .dropdown-menu > .disabled > a:hover, #swira-header .swira-topbar .navbar-default .nav-menu .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus, .navbar-default #swira-header .swira-topbar .nav-menu .open .dropdown-menu > .disabled > a:focus, #swira-header .swira-topbar .navbar-default .nav-menu .open .dropdown-menu > .disabled > a:focus {
     color: #cccccc;
     background-color: transparent;
   }
@@ -5650,21 +5650,21 @@ tbody.collapse.in {
   color: #9d9d9d;
 }
 /* line 549, ../../src/stylesheets/bootstrap/_navbar.scss */
-.navbar-inverse .navbar-nav > li > a, .navbar-inverse #swira-header .nav-menu > li > a, #swira-header .navbar-inverse .nav-menu > li > a {
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse #swira-header .swira-topbar .nav-menu > li > a, #swira-header .swira-topbar .navbar-inverse .nav-menu > li > a {
   color: #9d9d9d;
 }
 /* line 553, ../../src/stylesheets/bootstrap/_navbar.scss */
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse #swira-header .nav-menu > li > a:hover, #swira-header .navbar-inverse .nav-menu > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse #swira-header .nav-menu > li > a:focus, #swira-header .navbar-inverse .nav-menu > li > a:focus {
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse #swira-header .swira-topbar .nav-menu > li > a:hover, #swira-header .swira-topbar .navbar-inverse .nav-menu > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse #swira-header .swira-topbar .nav-menu > li > a:focus, #swira-header .swira-topbar .navbar-inverse .nav-menu > li > a:focus {
   color: white;
   background-color: transparent;
 }
 /* line 561, ../../src/stylesheets/bootstrap/_navbar.scss */
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse #swira-header .nav-menu > .active > a, #swira-header .navbar-inverse .nav-menu > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse #swira-header .nav-menu > .active > a:hover, #swira-header .navbar-inverse .nav-menu > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse #swira-header .nav-menu > .active > a:focus, #swira-header .navbar-inverse .nav-menu > .active > a:focus {
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse #swira-header .swira-topbar .nav-menu > .active > a, #swira-header .swira-topbar .navbar-inverse .nav-menu > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse #swira-header .swira-topbar .nav-menu > .active > a:hover, #swira-header .swira-topbar .navbar-inverse .nav-menu > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse #swira-header .swira-topbar .nav-menu > .active > a:focus, #swira-header .swira-topbar .navbar-inverse .nav-menu > .active > a:focus {
   color: white;
   background-color: #090909;
 }
 /* line 569, ../../src/stylesheets/bootstrap/_navbar.scss */
-.navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse #swira-header .nav-menu > .disabled > a, #swira-header .navbar-inverse .nav-menu > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse #swira-header .nav-menu > .disabled > a:hover, #swira-header .navbar-inverse .nav-menu > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus, .navbar-inverse #swira-header .nav-menu > .disabled > a:focus, #swira-header .navbar-inverse .nav-menu > .disabled > a:focus {
+.navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse #swira-header .swira-topbar .nav-menu > .disabled > a, #swira-header .swira-topbar .navbar-inverse .nav-menu > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse #swira-header .swira-topbar .nav-menu > .disabled > a:hover, #swira-header .swira-topbar .navbar-inverse .nav-menu > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus, .navbar-inverse #swira-header .swira-topbar .nav-menu > .disabled > a:focus, #swira-header .swira-topbar .navbar-inverse .nav-menu > .disabled > a:focus {
   color: #444444;
   background-color: transparent;
 }
@@ -5686,35 +5686,35 @@ tbody.collapse.in {
   border-color: #101010;
 }
 /* line 598, ../../src/stylesheets/bootstrap/_navbar.scss */
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse #swira-header .nav-menu > .open > a, #swira-header .navbar-inverse .nav-menu > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse #swira-header .nav-menu > .open > a:hover, #swira-header .navbar-inverse .nav-menu > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse #swira-header .nav-menu > .open > a:focus, #swira-header .navbar-inverse .nav-menu > .open > a:focus {
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse #swira-header .swira-topbar .nav-menu > .open > a, #swira-header .swira-topbar .navbar-inverse .nav-menu > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse #swira-header .swira-topbar .nav-menu > .open > a:hover, #swira-header .swira-topbar .navbar-inverse .nav-menu > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse #swira-header .swira-topbar .nav-menu > .open > a:focus, #swira-header .swira-topbar .navbar-inverse .nav-menu > .open > a:focus {
   background-color: #090909;
   color: white;
 }
 @media (max-width: 767px) {
   /* line 607, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header, .navbar-inverse #swira-header .nav-menu .open .dropdown-menu > .dropdown-header, #swira-header .navbar-inverse .nav-menu .open .dropdown-menu > .dropdown-header {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header, .navbar-inverse #swira-header .swira-topbar .nav-menu .open .dropdown-menu > .dropdown-header, #swira-header .swira-topbar .navbar-inverse .nav-menu .open .dropdown-menu > .dropdown-header {
     border-color: #090909;
   }
   /* line 610, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-inverse .navbar-nav .open .dropdown-menu .divider, .navbar-inverse #swira-header .nav-menu .open .dropdown-menu .divider, #swira-header .navbar-inverse .nav-menu .open .dropdown-menu .divider {
+  .navbar-inverse .navbar-nav .open .dropdown-menu .divider, .navbar-inverse #swira-header .swira-topbar .nav-menu .open .dropdown-menu .divider, #swira-header .swira-topbar .navbar-inverse .nav-menu .open .dropdown-menu .divider {
     background-color: #090909;
   }
   /* line 613, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a, .navbar-inverse #swira-header .nav-menu .open .dropdown-menu > li > a, #swira-header .navbar-inverse .nav-menu .open .dropdown-menu > li > a {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a, .navbar-inverse #swira-header .swira-topbar .nav-menu .open .dropdown-menu > li > a, #swira-header .swira-topbar .navbar-inverse .nav-menu .open .dropdown-menu > li > a {
     color: #9d9d9d;
   }
   /* line 616, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse #swira-header .nav-menu .open .dropdown-menu > li > a:hover, #swira-header .navbar-inverse .nav-menu .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse #swira-header .nav-menu .open .dropdown-menu > li > a:focus, #swira-header .navbar-inverse .nav-menu .open .dropdown-menu > li > a:focus {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse #swira-header .swira-topbar .nav-menu .open .dropdown-menu > li > a:hover, #swira-header .swira-topbar .navbar-inverse .nav-menu .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse #swira-header .swira-topbar .nav-menu .open .dropdown-menu > li > a:focus, #swira-header .swira-topbar .navbar-inverse .nav-menu .open .dropdown-menu > li > a:focus {
     color: white;
     background-color: transparent;
   }
   /* line 624, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse #swira-header .nav-menu .open .dropdown-menu > .active > a, #swira-header .navbar-inverse .nav-menu .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse #swira-header .nav-menu .open .dropdown-menu > .active > a:hover, #swira-header .navbar-inverse .nav-menu .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus, .navbar-inverse #swira-header .nav-menu .open .dropdown-menu > .active > a:focus, #swira-header .navbar-inverse .nav-menu .open .dropdown-menu > .active > a:focus {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse #swira-header .swira-topbar .nav-menu .open .dropdown-menu > .active > a, #swira-header .swira-topbar .navbar-inverse .nav-menu .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse #swira-header .swira-topbar .nav-menu .open .dropdown-menu > .active > a:hover, #swira-header .swira-topbar .navbar-inverse .nav-menu .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus, .navbar-inverse #swira-header .swira-topbar .nav-menu .open .dropdown-menu > .active > a:focus, #swira-header .swira-topbar .navbar-inverse .nav-menu .open .dropdown-menu > .active > a:focus {
     color: white;
     background-color: #090909;
   }
   /* line 632, ../../src/stylesheets/bootstrap/_navbar.scss */
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse #swira-header .nav-menu .open .dropdown-menu > .disabled > a, #swira-header .navbar-inverse .nav-menu .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse #swira-header .nav-menu .open .dropdown-menu > .disabled > a:hover, #swira-header .navbar-inverse .nav-menu .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus, .navbar-inverse #swira-header .nav-menu .open .dropdown-menu > .disabled > a:focus, #swira-header .navbar-inverse .nav-menu .open .dropdown-menu > .disabled > a:focus {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse #swira-header .swira-topbar .nav-menu .open .dropdown-menu > .disabled > a, #swira-header .swira-topbar .navbar-inverse .nav-menu .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse #swira-header .swira-topbar .nav-menu .open .dropdown-menu > .disabled > a:hover, #swira-header .swira-topbar .navbar-inverse .nav-menu .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus, .navbar-inverse #swira-header .swira-topbar .nav-menu .open .dropdown-menu > .disabled > a:focus, #swira-header .swira-topbar .navbar-inverse .nav-menu .open .dropdown-menu > .disabled > a:focus {
     color: #444444;
     background-color: transparent;
   }
@@ -8159,6 +8159,18 @@ button.close {
     display: none !important;
   }
 }
+/*
+
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
+*/
+/*@mixin mobileOnly() {
+    @media (max-width: $screen-xs-max) {
+        @content
+    }
+}*/
 @font-face {
   font-family: "EurostileLTW01-Ex2";
   src: url("../fonts/788248/aaefe22a-b1b6-47a7-9695-0211ccdb32bd.eot?#iefix");
@@ -8200,21 +8212,21 @@ button.close {
 }
 
 /* Rubrik 1: Eurostile Lt Std Ex 2, 18 pt (versal) */
-/* line 4, ../../src/stylesheets/sections/_main.scss */
+/* line 36, ../../src/stylesheets/sections/_main.scss */
 h1 {
   font-family: "EurostileLTW01-Ex2";
   font-size: 18pt;
 }
 
 /* Rubrik 2: Humanst521 BT Roman, 18 pt */
-/* line 10, ../../src/stylesheets/sections/_main.scss */
+/* line 41, ../../src/stylesheets/sections/_main.scss */
 h2 {
   font-family: "humanst521_btroman";
   font-size: 18pt;
 }
 
 /* Rubrik 3: Humanst521 BT Roman, 15 pt (rgb 33, 70, 86) */
-/* line 16, ../../src/stylesheets/sections/_main.scss */
+/* line 46, ../../src/stylesheets/sections/_main.scss */
 h3 {
   font-family: "humanst521_btroman";
   font-size: 15pt;
@@ -8223,20 +8235,93 @@ h3 {
 
 /* Ingress: Humanst521 BT Light, 18 pt */
 /* Brödtext: Humanst521 BT Light, 13 pt (15 pt i sidfot) */
-/* line 26, ../../src/stylesheets/sections/_main.scss */
+/* line 54, ../../src/stylesheets/sections/_main.scss */
 p {
   font-family: "humanst521_lt_btlight";
   font-size: 13pt;
 }
-/* line 29, ../../src/stylesheets/sections/_main.scss */
+/* line 21, ../../src/stylesheets/sections/_main.scss */
 p .preamble {
   font-size: 18pt;
 }
 
 /* line 1, ../../src/stylesheets/sections/_header.scss */
 #swira-header {
-  background: white url("../images/top1.jpg") top center no-repeat;
-  height: 426px;
+  background: transparent url("../images/top1.jpg") top center no-repeat;
+}
+@media (min-width: 768px) {
+  /* line 1, ../../src/stylesheets/sections/_header.scss */
+  #swira-header {
+    height: 426px;
+  }
+}
+/* line 9, ../../src/stylesheets/sections/_header.scss */
+#swira-header .swira-topbar {
+  background-color: #9cdbd9;
+  opacity: 0.6;
+  max-width: 1598px;
+  margin: 0 auto;
+}
+/* line 15, ../../src/stylesheets/sections/_header.scss */
+#swira-header .swira-topbar .nav-menu {
+  height: 50px;
+}
+/* line 21, ../../src/stylesheets/sections/_header.scss */
+#swira-header .swira-topbar .navbar-toggle {
+  border-color: white;
+}
+/* line 23, ../../src/stylesheets/sections/_header.scss */
+#swira-header .swira-topbar .navbar-toggle .icon-bar {
+  background-color: white;
+}
+/* line 28, ../../src/stylesheets/sections/_header.scss */
+#swira-header .swira-topbar ul li.menu-item {
+  font-family: "EurostileLTW01-Ex2";
+  font-size: 12pt;
+  text-transform: uppercase;
+  color: white;
+}
+/* line 31, ../../src/stylesheets/sections/_header.scss */
+#swira-header .swira-topbar ul li.menu-item a {
+  color: black;
+}
+/* line 37, ../../src/stylesheets/sections/_header.scss */
+#swira-header .swira-topbar ul li.menu-item:hover, #swira-header .swira-topbar ul li.menu-item.current_page_item {
+  background-color: #EEE;
+}
+/* line 41, ../../src/stylesheets/sections/_header.scss */
+#swira-header .swira-topbar ul li.menu-item.menu-item-home {
+  background-color: transparent;
+}
+/* line 49, ../../src/stylesheets/sections/_header.scss */
+#swira-header #swira-logo-and-tagline .row > div p {
+  margin: 20px 0 10pc 0;
+}
+/* line 52, ../../src/stylesheets/sections/_header.scss */
+#swira-header #swira-logo-and-tagline .row > div img {
+  margin-top: 20px;
+}
+@media (min-width: 992px) {
+  /* line 56, ../../src/stylesheets/sections/_header.scss */
+  #swira-header #swira-logo-and-tagline .row {
+    height: 325px;
+    display: table;
+  }
+  /* line 60, ../../src/stylesheets/sections/_header.scss */
+  #swira-header #swira-logo-and-tagline .row > div {
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
+    padding-right: 40px;
+  }
+  /* line 66, ../../src/stylesheets/sections/_header.scss */
+  #swira-header #swira-logo-and-tagline .row > div p {
+    margin: 0;
+  }
+  /* line 69, ../../src/stylesheets/sections/_header.scss */
+  #swira-header #swira-logo-and-tagline .row > div img {
+    margin-top: 0;
+  }
 }
 
 /* line 1, ../../src/stylesheets/sections/_footer.scss */
@@ -8252,4 +8337,60 @@ p .preamble {
 /* line 8, ../../src/stylesheets/sections/_footer.scss */
 #swira-footer h1, #swira-footer h2, #swira-footer h3, #swira-footer p {
   color: #fff;
+}
+
+/* line 1, ../../src/stylesheets/sections/_frontpage.scss */
+#primary .start-btn {
+  font-family: "EurostileLTW01-Ex2";
+  font-size: 18pt;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  color: #676d6d;
+  text-align: center;
+  padding-top: 50%;
+  padding-bottom: 30px;
+  background-color: #9cdbd9;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* line 15, ../../src/stylesheets/sections/_frontpage.scss */
+#primary .start-btn.start-btn-about {
+  background-image: url(../images/icon-about.png);
+}
+/* line 18, ../../src/stylesheets/sections/_frontpage.scss */
+#primary .start-btn.start-btn-members {
+  background-image: url(../images/icon-members.png);
+}
+/* line 21, ../../src/stylesheets/sections/_frontpage.scss */
+#primary .start-btn.start-btn-calendar {
+  background-image: url(../images/icon-calendar.png);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1, ../../src/stylesheets/sections/_frontpage.scss */
+  #primary .start-btn {
+    height: 200px;
+    background-size: 75px;
+    background-position: center 50px;
+    padding-top: 60%;
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1, ../../src/stylesheets/sections/_frontpage.scss */
+  #primary .start-btn {
+    height: 250px;
+    background-position: center 50px;
+    padding-top: 60%;
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1, ../../src/stylesheets/sections/_frontpage.scss */
+  #primary .start-btn {
+    height: 300px;
+    background-position: center 75px;
+    padding-top: 60%;
+  }
 }

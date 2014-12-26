@@ -2,7 +2,7 @@
     /*@include make-sm-column($sm_columns);
     @include make-lg-column($lg_columns);
     @include make-md-column($md_columns);
-    
+
     @if $md_offset > 0 {
         @include make-sm-offset($md_offset);
     }
@@ -16,20 +16,51 @@
     }*/
 }
 
-@mixin largeDesktop() {
-    @media (min-width: $screen-lg-min) {
+
+/*
+
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
+*/
+
+@mixin desktopsAndUp() {
+    @media (min-width: $screen-md-min) {
         @content
     }
 }
-
-@mixin tablet() {
+@mixin tabletsAndUp() {
     @media (min-width: $screen-sm-min) {
         @content
     }
 }
 
-@mixin mobile() {
-    @media (max-width: $screen-xs-max) {
+@mixin tabletsAndDown() {
+    @media (max-width: $screen-sm-max) {
         @content
     }
 }
+
+@mixin tabletsOnly() {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+        @content
+    }
+}
+@mixin desktopOnly() {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+        @content
+    }
+}
+@mixin largeOnly() {
+    @media (min-width: $screen-lg-min) {
+        @content
+    }
+}
+
+//the default in bs3 so no need for it
+/*@mixin mobileOnly() {
+    @media (max-width: $screen-xs-max) {
+        @content
+    }
+}*/

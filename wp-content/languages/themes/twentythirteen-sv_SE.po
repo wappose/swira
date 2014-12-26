@@ -34,14 +34,6 @@ msgstr "Visas i webbplatsens sidfot."
 msgid "http://wordpress.org/themes/twentythirteen"
 msgstr "http://wordpress.org/themes/twentythirteen"
 
-#: image.php:39
-msgid "Full resolution"
-msgstr "Full upplösning"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Thirteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Thirteen kräver minst WordPress version 3.6. Du kör version %s. Vänligen uppdatera och försök igen."
-
 #: image.php:38
 msgid "Link to full-size image"
 msgstr "Länk till bild i fullskala"
@@ -57,6 +49,14 @@ msgstr "Sekundärt widgetfält"
 #: functions.php:243
 msgid "Appears on posts and pages in the sidebar."
 msgstr "Visas i inlägg och på sidor i sidofältet."
+
+#: image.php:39
+msgid "Full resolution"
+msgstr "Full upplösning"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Thirteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Thirteen kräver minst WordPress version 3.6. Du kör version %s. Vänligen uppdatera och försök igen."
 
 #: 404.php:21
 msgid "This is somewhat embarrassing, isn&rsquo;t it?"

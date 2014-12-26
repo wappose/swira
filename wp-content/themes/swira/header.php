@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,36 +21,45 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php echo get_template_directory_uri() ?>/assets/javascripts/bootstrap.min.js"></script>
-    <script src="<?php echo get_template_directory_uri() ?>/assets/javascripts/fonts.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/assets/javascripts/fonts.fsjs"></script>
 
 	<?php wp_head(); ?>
   </head>
 <body <?php body_class(); ?>>
+
 <header id="swira-header">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
+	<div class="swira-topbar">
 
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
 
-    <div class="collapse navbar-collapse">
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#swira-navbar-collapse">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				    </div>
 
-<?php wp_nav_menu( array(  'container' => false, 'menu_class' => 'nav navbar-nav' ) ); ?>
-					<?php get_search_form(); ?>
-    </div>
+	    			<div id="swira-navbar-collapse" class="collapse navbar-collapse">
 
+	<?php wp_nav_menu( array(  'container' => false, 'menu_class' => 'nav navbar-nav' ) ); ?>
+						<?php // get_search_form();
+						?>
+	    			</div>
+
+				</div>
 			</div>
 		</div>
-
-
+	</div>
+	<div class="container" id="swira-logo-and-tagline">
+		<div class="row">
+			<div class="col-md-5"><img src="<?php echo get_template_directory_uri() ?>/assets/images/logo.png" alt="<?php echo get_bloginfo( 'name', 'display' ); ?>" /></div>
+			<div class="col-md-7"><p><?php echo get_bloginfo( 'description', 'display' ); ?></p>
+			</div>
+		</div>
 	</div>
 
 </header>

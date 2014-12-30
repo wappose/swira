@@ -8268,11 +8268,11 @@ p .preamble {
 }
 /* line 21, ../../src/stylesheets/sections/_header.scss */
 #swira-header .swira-topbar .navbar-toggle {
-  border-color: white;
+  border-color: black;
 }
 /* line 23, ../../src/stylesheets/sections/_header.scss */
 #swira-header .swira-topbar .navbar-toggle .icon-bar {
-  background-color: white;
+  background-color: black;
 }
 /* line 28, ../../src/stylesheets/sections/_header.scss */
 #swira-header .swira-topbar ul li.menu-item {

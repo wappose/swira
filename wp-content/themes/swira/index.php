@@ -1,10 +1,9 @@
 <?php get_header(); ?>
 
 
-
-<div id="primary" class="content-area">
-    <div id="content" class="site-content" role="main">
-
+<div id="primary" class="content-area container">
+    <div id="content" class="site-content row" role="main">
+      <div class="col-xs-12">
 
 <?php if ( have_posts() ) : ?>
 <?php while ( have_posts() ) : the_post(); ?>
@@ -22,7 +21,7 @@
         <?php wp_link_pages(); ?>
     </div><!--end entry-->
     <div class="post-footer">
-        <div class="comments"><?php comments_popup_link( 'Leave a Comment', '1 Comment', '% Comments' ); ?></div>
+        <!-- <div class="comments"><?php comments_popup_link( 'Leave a Comment', '1 Comment', '% Comments' ); ?></div> -->
     </div><!--end post footer-->
   </div><!--end post-->
 
@@ -34,6 +33,7 @@
 <?php else : ?>
 <?php endif; ?>
 
+        </div><!-- #column -->
     </div><!-- #content -->
 </div><!-- #primary -->
 

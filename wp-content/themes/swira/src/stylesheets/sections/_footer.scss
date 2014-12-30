@@ -6,5 +6,8 @@
         font-size: 15pt;
     }
     h1, h2, h3, p { color: #fff; }
+    h2 {
+        @include h1();
+    }
 }
 

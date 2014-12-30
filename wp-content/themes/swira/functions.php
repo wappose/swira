@@ -37,3 +37,4 @@ function vc_remove_frontend_links() {
     vc_disable_frontend(); // this will disable frontend editor
 }
 add_action( 'vc_after_init', 'vc_remove_frontend_links' );
+

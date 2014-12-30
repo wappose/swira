@@ -1,0 +1,126 @@
+/* @group clearfix */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+/* @end */
+
+/* @group widget */
+
+/*div.widget[id*=_sfmsb] input[type=checkbox],
+div.widget[id*=_sfmsb] input[type=radio],
+div.widget[id*=_sfmsb] select,
+div.widget[id*=_sfmsb] input.s{
+	margin-top: -15px;
+}*/
+
+div.widget[id*=_sfmsb] input.s{
+	width:100px;
+}
+
+div.sfmsb-icons-container.dark a{
+	background-color: #000000;
+}
+
+div.sfmsb-icons-container a[class^="sfmsb-"], 
+div.sfmsb-icons-container a[class*=" sfmsb-"]{
+	text-decoration:none;
+	margin:0px 8px 10px 8px;
+	display:block;
+	float:left;
+}
+
+div.sfmsb-icons-container{
+	position:relative;
+	margin-bottom:30px;
+	border:2px solid #e4e3e3;
+	padding:10px 10px 70px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+div.sfmsb-icons-container span{
+	font-size:35px;
+}
+
+div.sfmsb-icons-container.extra-message{
+	padding:10px 10px 120px 10px;
+}
+
+div.sfmsb-input-block,
+div.sfmsb-initial-message{
+	position:absolute;
+	width: 93%;
+}
+
+div.sfmsb-input-block{
+	display:none;
+	bottom:10px;
+}
+
+div.sfmsb-initial-message{
+	bottom:20px;
+}
+
+div.sfmsb-input-block input[type=text]{
+	margin-top:5px;
+}
+
+a.sfmsb-disable{
+	opacity: 0.3;
+}
+
+a.sfmsb-disable:hover{
+	opacity: 0.5;
+}
+
+a.sfmsb-pending{
+	opacity: 0.5;
+	-webkit-box-shadow: 0 0 0 3px #E8ED45;
+	box-shadow: 0 0 0 3px #E8ED45;
+}
+
+p#sfmsb-specififeeds-message{
+	font-size: 10px;
+	display:none;
+}
+
+.updated.sfmsb-specificfeeds-notice {
+	position:relative;
+}
+
+.updated.sfmsb-specificfeeds-notice p{
+	display:table;
+}
+
+.updated.sfmsb-specificfeeds-notice span{
+	display:table-cell;
+	vertical-align: middle;
+	padding:0px 10px 0px 0px;
+	
+}
+
+.updated.sfmsb-specificfeeds-notice {
+	border-color: #0c459b ;
+	overflow:hidden;
+}
+
+.updated.sfmsb-specificfeeds-notice .sfmsb-icon-specificfeeds{
+	color:#d68678;
+	font-size: 30px;
+	margin-right:5px;
+}
+
+.sfmsb-icon-close:before { content: "\e643"; }
+.sfmsb-icon-close{ font-size: 17px; position:absolute; top: 5px; right:5px; color:#0c459b;}
+
+/* @end */
+

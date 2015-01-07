@@ -2,6 +2,7 @@
 @mixin h1() {
     font-family:"EurostileLTW01-Ex2";
     font-size: 18pt;
+    text-transform: uppercase;
 }
 
 @mixin h2() {
@@ -35,6 +36,9 @@
 /* Rubrik 1: Eurostile Lt Std Ex 2, 18 pt (versal) */
 h1 {
     @include h1()
+}
+h1#page-title {
+    margin-top: 0;
 }
 
 /* Rubrik 2: Humanst521 BT Roman, 18 pt */

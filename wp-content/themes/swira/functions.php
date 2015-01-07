@@ -4,7 +4,14 @@
  *
  */
 function swira_widgets_init() {
-
+    register_sidebar( array(
+        'name' => 'Page sidebar',
+        'id' => 'sidebar_1',
+        'before_widget' => '<div>',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>',
+    ) );
     register_sidebar( array(
         'name' => 'Footer 1st column',
         'id' => 'footer_1',

@@ -47,7 +47,9 @@
 
     #swira-logo-and-tagline {
         .row > div p {
-            margin: 20px 0 10pc 0;
+            @include h1();
+            margin: 20px 0 10px 0;
+            text-transform: none;
         }
         .row > div img {
             margin-top: 20px;

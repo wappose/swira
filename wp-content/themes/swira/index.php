@@ -1,3 +1,6 @@
+<?php include('page.php'); exit; ?>
+
+
 <?php get_header(); ?>
 
 

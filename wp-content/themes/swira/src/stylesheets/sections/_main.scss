@@ -55,7 +55,7 @@ h3 {
 
 
 /* Brödtext: Humanst521 BT Light, 13 pt (15 pt i sidfot) */
-p {
+p, li {
     @include p()
 }
 

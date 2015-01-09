@@ -77,3 +77,15 @@ wp_nav_menu( array(
     'items_wrap' => '%3$s'
 ) );
 */
+function swira_add_editor_styles() {
+    add_editor_style( 'assets/stylesheets/editor-styles.css' );
+}
+add_action( 'after_setup_theme', 'swira_add_editor_styles' );
+
+
+function swira_tiny_mce_before_init($in) {
+    //$in['apply_source_formatting'] = false;
+    $in['block_formats'] = "Stycke=p; Rubrik 1=h1; Rubrik 2=h2; Rubrik 3=h3";
+    return $in;
+}
+add_filter( 'tiny_mce_before_init', 'swira_tiny_mce_before_init' );

@@ -1,31 +1,31 @@
-<?php include('page.php'); exit; ?>
-
-
 <?php get_header(); ?>
 
 
 <div id="primary" class="content-area container">
     <div id="content" class="site-content row" role="main">
-      <div class="col-xs-12">
+    <div class="<?php echo is_front_page() || !is_active_sidebar( 'sidebar_1' )  ? "col-xs-12" : "col-md-8" ?>">
 
 <?php if ( have_posts() ) : ?>
 <?php while ( have_posts() ) : the_post(); ?>
 
-  <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <div class="post-header">
-        <div class="date"><?php the_time( 'M j y' ); ?></div>
-        <h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-        <div class="author"><?php the_author(); ?></div>
-    </div><!--end post header-->
-    <div class="entry clear">
-        <?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail(); ?>
-        <?php the_content(); ?>
-        <?php edit_post_link(); ?>
+  <div id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
+    <h1 id="page-title" class="title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent länk till <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+    <div class="row post-date-and-categories">
+      <div class="col-md-3"><p>
+        <?php the_date(); ?></p>
+      </div>
+      <div class="col-md-9"><p>
+        <?php the_terms( $post->ID, 'category', '', ' / ' ); ?></p>
+      </div>
+    </div>
+
+    <div class="entry clear row">
+      <div class="col-sm-3"><?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail(); ?></div>
+      <div class="col-sm-9">
+        <?php the_excerpt(); ?>
         <?php wp_link_pages(); ?>
+        </div>
     </div><!--end entry-->
-    <div class="post-footer">
-        <!-- <div class="comments"><?php comments_popup_link( 'Leave a Comment', '1 Comment', '% Comments' ); ?></div> -->
-    </div><!--end post footer-->
   </div><!--end post-->
 
 <?php endwhile; /* rewind or continue if all posts have been fetched */ ?>
@@ -37,6 +37,14 @@
 <?php endif; ?>
 
         </div><!-- #column -->
+<?php if(!is_front_page() && is_active_sidebar( 'sidebar_1' )) : ?>
+    <div class="sidebar-1 col-md-4">
+      <div class="sidebar-content">
+<?php  dynamic_sidebar( 'sidebar_1' ); ?>
+      </div>
+    </div><!-- #column -->
+<?php endif; ?>
+
     </div><!-- #content -->
 </div><!-- #primary -->
 

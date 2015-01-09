@@ -2,6 +2,24 @@
     margin-top: 60px;
     margin-bottom: 30px;
 
+    h1#page-title {
+       margin-top: 0;
+    }
+
+    .post-date-and-categories p {
+        text-transform: uppercase;
+    }
+
+    .entry {
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+        .attachment-post-thumbnail {
+            float: left;
+        }
+    }
+
     .sidebar-1 {
         margin: 0 -15px -30px -15px;
         @include tabletsAndUp() {

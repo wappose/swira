@@ -19,9 +19,11 @@
 @mixin p() {
     font-family:"humanst521_lt_btlight";
     font-size: 13pt;
-    .preamble {
-        font-size: 18pt;
-    }
+}
+
+@mixin preamble() {
+    font-family:"humanst521_lt_btlight";
+    font-size: 18pt;
 }
 
 @mixin menu-item() {
@@ -37,9 +39,7 @@
 h1 {
     @include h1()
 }
-h1#page-title {
-    margin-top: 0;
-}
+
 
 /* Rubrik 2: Humanst521 BT Roman, 18 pt */
 h2 {
@@ -51,11 +51,19 @@ h3 {
     @include h3()
 }
 
-/* Ingress: Humanst521 BT Light, 18 pt */
-
 
 /* Brödtext: Humanst521 BT Light, 13 pt (15 pt i sidfot) */
 p, li {
     @include p()
+}
+
+/* Ingress: Humanst521 BT Light, 18 pt */
+blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    p {
+        @include preamble();
+    }
 }
 

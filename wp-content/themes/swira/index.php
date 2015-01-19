@@ -4,12 +4,13 @@
 <div id="primary" class="content-area container">
     <div id="content" class="site-content row" role="main">
     <div class="<?php echo is_front_page() || !is_active_sidebar( 'sidebar_1' )  ? "col-xs-12" : "col-md-8" ?>">
+      <h1 id="page-title" class="title">Nyheter</h1>
 
 <?php if ( have_posts() ) : ?>
 <?php while ( have_posts() ) : the_post(); ?>
 
   <div id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
-    <h1 id="page-title" class="title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent länk till <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+    <h2 class="post-title"><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent länk till <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
     <div class="row post-date-and-categories">
       <div class="col-md-3"><p>
         <?php the_date(); ?></p>

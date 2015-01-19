@@ -15,8 +15,13 @@
             height: auto;
             max-width: 100%;
         }
-        .attachment-post-thumbnail {
-            float: left;
+        input[type="text"],
+        textarea {
+            @extend .form-control;
+        }
+        input[type="submit"] {
+            @extend .btn ;
+            @extend .btn-default;
         }
     }
 
@@ -38,4 +43,6 @@
             }
         }
     }
+
+
 }

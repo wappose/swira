@@ -56,7 +56,7 @@
 	</div>
 	<div class="container" id="swira-logo-and-tagline">
 		<div class="row">
-			<div class="col-md-5"><img src="<?php echo get_template_directory_uri() ?>/assets/images/logo.png" alt="<?php echo get_bloginfo( 'name', 'display' ); ?>" /></div>
+			<div class="col-md-5"><a href="/"><img src="<?php echo get_template_directory_uri() ?>/assets/images/logo.png" alt="<?php echo get_bloginfo( 'name', 'display' ); ?>" border="0" /></a></div>
 			<div class="col-md-7"><p><?php
             $quote = get_post_meta(get_the_ID(), 'custom_quote', true);
             if(!$quote)

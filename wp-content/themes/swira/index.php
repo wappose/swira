@@ -21,10 +21,11 @@
     </div>
 
     <div class="entry clear row">
-      <div class="col-sm-3"><?php if ( function_exists( 'add_theme_support' ) ) the_post_thumbnail(); ?></div>
+      <div class="col-sm-3"><?php if ( function_exists( 'add_theme_support' ) ) : ?><a href="<?php the_permalink()?>" rel="bookmark" title="Läs mer om <?php the_title_attribute();?>"><?php the_post_thumbnail(); ?></a><?php endif ; ?></div>
       <div class="col-sm-9">
-        <?php the_excerpt(); ?>
-        <?php wp_link_pages(); ?>
+        <a href="<?php the_permalink(); ?>" rel="bookmark" title="Läs mer om <?php the_title_attribute(); ?>" class="normal-text"><?php the_excerpt(); ?>
+        <?php wp_link_pages(); ?></a>
+        <a href="<?php the_permalink(); ?>" rel="bookmark" title="Läs mer om <?php the_title_attribute(); ?>">Läs mer &raquo;</a>
         </div>
     </div><!--end entry-->
   </div><!--end post-->

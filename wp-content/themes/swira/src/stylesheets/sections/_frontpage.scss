@@ -67,7 +67,9 @@
             background-color: #e7e7e6;
             padding: 0 30px;
             h2.wpb_heading {
+                @include h1();
                 padding-top: 30px;
+
             }
             .isotope-inner {
                 padding: 0 10px 0 10px;

@@ -17,12 +17,12 @@
 }
 
 @mixin p() {
-    font-family:"humanst521_lt_btlight";
+    font-family:"humanst521_btroman";
     font-size: 13pt;
 }
 
 @mixin preamble() {
-    font-family:"humanst521_lt_btlight";
+    font-family:"humanst521_btroman";
     font-size: 18pt;
 }
 
@@ -52,12 +52,12 @@ h3 {
 }
 
 
-/* Brödtext: Humanst521 BT Light, 13 pt (15 pt i sidfot) */
+/* Brödtext: Humanst521 BT Roman, 13 pt (15 pt i sidfot) */
 p, li {
     @include p()
 }
 
-/* Ingress: Humanst521 BT Light, 18 pt */
+/* Ingress: Humanst521 BT Roman, 18 pt */
 blockquote {
     margin: 0;
     padding: 0;

@@ -24,7 +24,16 @@
             @extend .btn-default;
         }
     }
-
+    .post {
+        h2.post-title {
+            a {
+                color: inherit;
+            }
+        }
+        a.normal-text {
+            color: inherit;
+        }
+    }
     .sidebar-1 {
         margin: 0 -15px -30px -15px;
         @include tabletsAndUp() {
@@ -40,6 +49,13 @@
 
             h2:first-child {
                 margin-top: 0 !important;
+            }
+
+            ul {
+                padding-left: 10px;
+                li {
+                    list-style-type: none;
+                }
             }
         }
     }

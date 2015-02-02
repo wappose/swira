@@ -6,23 +6,23 @@
 }
 
 @mixin h2() {
-    font-family:"humanst521_btroman";
+    font-family: 'Open Sans', sans-serif;
     font-size: 18pt;
 }
 
 @mixin h3() {
-    font-family:"humanst521_btroman";
+    font-family: 'Open Sans', sans-serif;
     font-size: 15pt;
     color: rgb(33, 70, 86);
 }
 
 @mixin p() {
-    font-family:"humanst521_btroman";
+    font-family: 'Open Sans', sans-serif;
     font-size: 13pt;
 }
 
 @mixin preamble() {
-    font-family:"humanst521_btroman";
+    font-family: 'Open Sans', sans-serif;
     font-size: 18pt;
 }
 
